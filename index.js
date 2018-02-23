@@ -16,4 +16,5 @@ function deepestChild(){
  
    current = current.children[0] 
   }
+  return current
 }
