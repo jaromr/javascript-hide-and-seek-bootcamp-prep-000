@@ -2,7 +2,7 @@ function getFirstSelector(selector){
   return document.querySelector(selector)
 }
 function nestedTarget(target, nested){
- return document.querySelector('#nested.target')
+ return document.querySelector('#nested .target')
 }
 function increaseRankBy(n){
   const elements = document.querySelectorAll('ul.ranked-list')
