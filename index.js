@@ -12,7 +12,8 @@ function increaseRankBy(n){
 }
 function deepestChild(){
   var current = document.querySelector('div#grandnode')[0]
+  
   if (typeof current === 'object' ){
-   current = current.children 
+   current = current.children[0] 
   }
 }
